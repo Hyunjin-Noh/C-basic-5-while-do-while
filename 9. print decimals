@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{   
+    int n=1;  
+    while(n<=100){ //1부터 100까지의 n
+        int a=2;
+        while(a<=n) {
+            if (n%a==0) break;
+            else a++; }
+        if (a==n) printf("%d ", n);
+    n++;
+    }
+    return 0;
+}
