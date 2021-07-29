@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+    int n;
+    int oddsum=0;
+    int evensum=0;
+    
+    while(1) {
+        scanf("%d", &n);
+        if (n==0) break;
+        else if (n%2==0) evensum += n; 
+        else oddsum += n;}
+  
+    printf("짝수 총합 : %d\n", evensum);
+    printf("홀수 총합 : %d\n", oddsum);
+    
+    return 0;
+}
