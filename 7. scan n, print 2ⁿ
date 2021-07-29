@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    int n=1;
+    int pow=1;
+    
+    int x;
+    scanf("%d", &x);
+    
+    while (n<=x) {
+        pow = pow * 2;
+        n++; }
+        
+    printf("%d", pow);
+    return 0;
+}
