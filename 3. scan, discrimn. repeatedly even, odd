@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    int n;
+    while (1){
+        scanf("%d", &n);
+        if (n == 0) break; //애초에 while(n != 0)이렇게 쓰는게 정답이 아닌 이유는 0이 입력되었을 때 아무것도 출력되지 않는다는 것이 명시되어있지 않기 때문이야!!
+        else if (n % 2 == 0) printf("짝수입니다.\n");
+        else printf("홀수입니다.\n");
+    }
+    
+    return 0;
+}
